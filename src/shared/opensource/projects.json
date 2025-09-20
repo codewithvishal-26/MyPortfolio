@@ -2,37 +2,45 @@
   "data": [
     {
       "id": "R_kgDOJWL0-g",
-      "name": "mdp-diffusion",
-      "createdAt": "2023-04-13T04:18:19Z",
-      "url": "https://github.com/ashutosh1919/mdp-diffusion",
-      "description": "Text-guided image editing by manipulating diffusion path without any training.",
+      "name": "Stone-Paper-Scissors",
+      "createdAt": "2024-04-13T04:18:19Z",
+      "url": "https://github.com/codewithvishal-26/Stone-Paper-Scissor",
+      "description": "🪨📄✂️ A simple game of Stone-Paper-Scissors built with HTML, CSS Javascript.",
       "isFork": false,
       "languages": [
         {
-          "name": "Python",
+          "name": "HTML",
           "iconifyClass": "logos-python"
         },
         {
-          "name": "Shell",
+          "name": "CSS",
           "iconifyClass": "simple-icons:shell"
         },
         {
-          "name": "Jupyter Notebook",
+          "name": "JavaScript",
           "iconifyClass": "logos-jupyter"
         }
       ]
     },
     {
       "id": "R_kgDOG_vYHA",
-      "name": "explainable-cnn",
-      "createdAt": "2022-03-13T20:41:33Z",
-      "url": "https://github.com/ashutosh1919/explainable-cnn",
-      "description": "📦 PyTorch based visualization package for generating layer-wise explanations for CNNs.",
+      "name": "Tic-Tac-Toe",
+      "createdAt": "2024-05-13T20:41:33Z",
+      "url": "https://github.com/codewithvishal-26/Tic-Tac-Toe",
+      "description": "🎮 A simple Tic-Tac-Toe game built with HTML, CSS, and JavaScript.",
       "isFork": false,
       "languages": [
         {
-          "name": "Python",
+          "name": "HTML",
           "iconifyClass": "logos-python"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "simple-icons:shell"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-jupyter"
         }
       ]
     },
@@ -64,10 +72,10 @@
     },
     {
       "id": "R_kgDOG0_8uQ",
-      "name": "react-awesome-shapes",
-      "createdAt": "2022-02-11T14:50:20Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-shapes",
-      "description": "🌀 Insert Awesome Shapes into Your React Site with Ease.",
+      "name": "Spotify-Clone",
+      "createdAt": "2024-07-11T14:50:20Z",
+      "url": "https://github.com/codewithvishal-26/Spotify-Clone",
+      "description": "🎵 A Spotify clone built with React, Redux, and the Spotify API. It allows users to search for songs, create playlists, and listen to music.",
       "isFork": false,
       "languages": [
         {
@@ -90,33 +98,23 @@
     },
     {
       "id": "R_kgDOGcPKSQ",
-      "name": "neuro-symbolic-sudoku-solver",
-      "createdAt": "2021-11-26T17:56:07Z",
-      "url": "https://github.com/ashutosh1919/neuro-symbolic-sudoku-solver",
-      "description": "⚙️ Solving sudoku using Deep Reinforcement learning in combination with powerful symbolic representations.",
+      "name": "Simon-Game",
+      "createdAt": "2024-08-26T17:56:07Z",
+      "url": "https://github.com/codewithvishal-26/Simon-Game",
+      "description": "🎮 A simple Simon Game built with HTML, CSS, and JavaScript. It challenges players to repeat a sequence of colors and sounds.",
       "isFork": false,
       "languages": [
         {
-          "name": "Python",
+          "name": "HTML",
           "iconifyClass": "logos-python"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "react-liquidswipe",
-      "createdAt": "2021-01-01T08:31:51Z",
-      "url": "https://github.com/ashutosh1919/react-liquidswipe",
-      "description": "🚀 Smooth Liquid Swipe Animation to transition between different components.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
         },
         {
           "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "iconifyClass": "simple-icons:shell"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-jupyter"
         }
       ]
     }

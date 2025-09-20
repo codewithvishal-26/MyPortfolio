@@ -23,6 +23,7 @@
   padding: 20px 20px;
   /* color: black; */
   text-decoration: none;
+  font-size: 19px;
 }
 
 .header li a:hover,
@@ -39,10 +40,11 @@
   line-height: normal;
 }
 .header .logo-name {
-  font-family: "Agustina Regular";
-  font-weight: bold;
+  font-family: "Pacifico", cursive;
+  font-weight: 700; /* bold weight */
   padding: 0 10px;
-  /* color: #55198b; */
+  font-size: 30px; /* optional: adjust as needed */
+  letter-spacing: 1px; /* optional for better spacing */
 }
 
 /* menu */

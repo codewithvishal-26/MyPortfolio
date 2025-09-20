@@ -2,3 +2,48 @@
   height: 305;
   width: 440;
 }
+
+.myHexagon {
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+  animation: dash 2s linear forwards 0.5s;
+}
+
+.signature1 {
+  animation: dash 0.6s linear forwards 0.3s;
+}
+.signature2 {
+  animation: dash 0.6s linear forwards 0.5s;
+}
+/* ... continue pattern for all 15 signatures ... */
+
+.letter {
+  animation: fadein 1s linear forwards 1.8s;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fadein {
+  to {
+    opacity: 1;
+  }
+}
+
+/* New pulse effect */
+.raw_logo {
+  animation: pulse 2s ease-in-out 3s infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
