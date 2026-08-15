@@ -79,12 +79,12 @@
 
 .pr-title > a {
   position: relative;
-  color: #000;
+  color: #ffffff;
   text-decoration: none;
 }
 
 .pr-title > a:hover {
-  color: #000;
+  color: #ffffff;
 }
 
 .pr-title > a:hover:before {
@@ -100,7 +100,7 @@
   height: 1px;
   bottom: 0;
   left: 0;
-  background-color: #000;
+  background-color: #ffffff;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -179,7 +179,7 @@
 }
 
 #tooltip-top > .tooltip-inner {
-  background-color: #000;
+  background-color: #ffffff;
   color: #fff;
   border: 1px solid #062e56;
 }

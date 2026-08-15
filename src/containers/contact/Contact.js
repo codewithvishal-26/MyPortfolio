@@ -29,10 +29,12 @@ export default function Contact() {
           </div>
         </div>
         <div className="contact-image-div">
-          <img
-            alt="Saad Working"
-            src={require("../../assets/images/contactMail.png")}
-          ></img>
+          <div className="contact-image-frame">
+            <img
+              alt="Contact"
+              src={require("../../assets/images/contactMail.png")}
+            ></img>
+          </div>
         </div>
       </div>
     </div>

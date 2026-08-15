@@ -1,0 +1,124 @@
+.hero-visual-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+}
+
+/* Illustration box - blends with background */
+.hero-illustration-box {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(37, 99, 235, 0.12);
+  background: transparent;
+  animation: fadeInUp 0.8s ease 0.2s both;
+  box-shadow: 0 20px 60px rgba(37, 99, 235, 0.12),
+    0 4px 20px rgba(0, 0, 0, 0.06);
+  position: relative;
+}
+
+/* This makes dark image blend into light background */
+.hero-illustration-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  mix-blend-mode: multiply;
+  border-radius: 20px;
+}
+
+/* Code card - light glass style matching background */
+.code-card {
+  position: relative;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(37, 99, 235, 0.15);
+  border-radius: 16px;
+  padding: 20px 24px;
+  font-family: "JetBrains Mono", "Courier New", monospace;
+  font-size: 13px;
+  line-height: 2;
+  animation: fadeInUp 0.8s ease 0.4s both,
+    floatCard 5s ease-in-out 1.5s infinite;
+  box-shadow: 0 8px 32px rgba(37, 99, 235, 0.08), 0 2px 8px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+  white-space: pre;
+}
+
+.code-card-dots {
+  display: flex;
+  gap: 7px;
+  margin-bottom: 14px;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.dot-red {
+  background: #ff5f56;
+}
+.dot-amber {
+  background: #ffbd2e;
+}
+.dot-green {
+  background: #27c93f;
+}
+
+.code-card-body {
+  margin: 0;
+  white-space: pre;
+  font-family: "JetBrains Mono", monospace;
+  overflow: hidden;
+}
+
+/* Light theme code colors */
+.cc-keyword {
+  color: #2563eb;
+  font-weight: 600;
+}
+.cc-string {
+  color: #059669;
+}
+.cc-func {
+  color: #7c3aed;
+}
+
+@keyframes floatCard {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-visual-stack {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .code-card {
+    font-size: 11px;
+    padding: 14px 16px;
+  }
+}

@@ -1,23 +1,34 @@
 import { createGlobalStyle } from "styled-components";
+import portfolioBg from "./assets/images/portfolio-bg.png";
 
 export const GlobalStyles = createGlobalStyle`
-  *,
-  *::after,
-  *::before {
-    box-sizing: border-box;
-  }
+  *, *::after, *::before { box-sizing: border-box; }
 
   body {
-    align-items: center;
-    background: ${({ theme }) => theme.body};
+    background-color: #f5f6ff;
+    background-image: url(${portfolioBg});
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: ${({ theme }) => theme.text};
-    display: flex;
-    font-size: 14px; 
-    // flex-direction: column;
-    // justify-content: center;
-    // height: 100vh;
-    // margin: 0;
-    // padding: 0;
-    font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-    transition: all 0.25s linear;
-  }`;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  #root { position: relative; z-index: 1; }
+  a { transition: color 0.2s ease; }
+
+  ::selection {
+    background: rgba(37,99,235,0.2);
+    color: #1a2b4a;
+  }
+
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: #f0f4ff; }
+  ::-webkit-scrollbar-thumb { background: rgba(37,99,235,0.3); border-radius: 3px; }
+`;

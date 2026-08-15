@@ -20,10 +20,10 @@ const seo = {
 //Home Page
 const greeting = {
   title: "Vishal Chandrabanshi",
-  logo_name: "Design. Develop. Deploy.",
-  nickname: "Software Engineer",
+  logo_name: "Vishal Chandrabanshi",
+  nickname: "AI Automation & Test Engineer",
   subTitle:
-    "MCA student | Ex-Wipro Professional | JavaScript & React Enthusiast | Problem Solver | Building scalable solutions with MERN stack",
+    "MCA student & Ex-Wipro professional specializing in AI-driven test automation. Building intelligent frameworks with Selenium, Playwright, and API testing to ship reliable software faster.",
   resumeLink:
     "https://drive.google.com/file/d/12uYl4PN6tEVzxyMevx-aJB2Bvjp6vUDo/view?usp=sharing",
   portfolio_repository: "https://github.com/codewithvishal-26?tab=repositories",
@@ -79,19 +79,19 @@ const skills = {
       title: "Data Analysitics",
       fileName: "DataAnalyticsImg",
       skills: [
-        "⚡ Experience in SQL-based data extraction, cleaning, and transformation for large datasets across multiple sources",
+        "● Extracted, cleaned, and transformed large datasets from multiple sources using SQL for reliable, analysis-ready data",
 
-        "⚡ Conducted data-driven analysis to uncover trends, optimize performance, and support strategic business decisions",
+        "● Conducted data-driven analysis to uncover trends, optimize performance, and support strategic business decisions",
 
-        "⚡ Built predictive models and performed statistical analysis for marketing, sales, and customer behavior patterns",
+        "● Built predictive models and ran statistical analysis on marketing, sales, and customer behavior patterns",
 
-        "⚡ Strong foundation in Excel (VLOOKUP, Pivot Tables, Macros) and Python for automation and advanced analytics",
+        "● Automated reporting and analytics workflows using Excel (VLOOKUP, Pivot Tables, Macros) and Python",
 
-        "⚡ Hands-on with data storytelling and visualization to present actionable insights to stakeholders",
+        "● Translated complex datasets into clear visual stories that drive stakeholder decisions",
 
-        "⚡ Familiar with A/B testing, hypothesis testing, and time-series forecasting techniques",
+        "● Applied A/B testing, hypothesis testing, and time-series forecasting to validate business hypotheses",
 
-        "⚡ Exposure to data pipelines, ETL processes, and cloud platforms (like AWS or GCP) in data project environments",
+        "● Worked with data pipelines, ETL processes, and cloud platforms like AWS and GCP on real project environments",
       ],
       softwareSkills: [
         {
@@ -141,12 +141,12 @@ const skills = {
       title: "Technical Support",
       fileName: "SupportImg",
       skills: [
-        "⚡ 1.5+ years experience at Wipro managing backup operations",
-        "⚡ Proficient in Cohesity and TSM backup solutions",
-        "⚡ Expertise in incident management and client issue resolution",
-        "⚡ ITIL framework knowledge for service delivery",
-        "⚡ Experience in troubleshooting complex system issues",
-        "⚡ Strong communication skills for client interactions",
+        "● 1.5+ years at Wipro managing enterprise backup operations and infrastructure reliability",
+        "● Hands-on expertise with Cohesity and TSM for automated backup and recovery solutions",
+        "● Diagnosed and resolved critical incidents, minimizing downtime through structured root-cause analysis",
+        "● Applied ITIL practices to streamline service delivery and incident response workflows",
+        "● Troubleshot complex system issues across distributed environments, building a strong foundation for automation thinking",
+        "● Communicated technical solutions clearly to clients, bridging the gap between engineering and business needs",
       ],
       softwareSkills: [
         {
@@ -173,24 +173,88 @@ const skills = {
       ],
     },
     {
+      title: "AI Automation & Testing",
+      fileName: "FullStackImg",
+      skills: [
+        "● Designing and maintaining AI-augmented automation frameworks using Selenium WebDriver, TestNG, and Java for scalable web testing",
+
+        "● Building fast, reliable cross-browser end-to-end test suites with Playwright for modern web applications",
+
+        "● Performing thorough API testing and validation using Postman — request chaining, schema validation, and response assertions",
+
+        "● Applying AI-assisted test case generation and self-healing locators to reduce script maintenance and flakiness",
+
+        "● Architecting data-driven and keyword-driven frameworks to make QA pipelines reusable and scalable",
+
+        "● Integrating automated test suites into CI/CD pipelines for continuous, AI-supported quality assurance",
+
+        "● Exploring intelligent test prioritization and predictive defect analysis to catch bugs before they ship",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Selenium",
+          fontAwesomeClassname: "simple-icons:selenium",
+          style: {
+            color: "#43B02A",
+          },
+        },
+        {
+          skillName: "TestNG",
+          fontAwesomeClassname: "simple-icons:testinglibrary",
+          style: {
+            color: "#E33332",
+          },
+        },
+        {
+          skillName: "Java",
+          fontAwesomeClassname: "simple-icons:openjdk",
+          style: {
+            color: "#437291",
+          },
+        },
+        {
+          skillName: "Postman",
+          fontAwesomeClassname: "simple-icons:postman",
+          style: {
+            color: "#FF6C37",
+          },
+        },
+        {
+          skillName: "Playwright",
+          fontAwesomeClassname: "simple-icons:playwright",
+          style: {
+            color: "#2EAD33",
+          },
+        },
+        {
+          skillName: "API Testing",
+          fontAwesomeClassname: "simple-icons:swagger",
+          style: {
+            color: "#85EA2D",
+          },
+        },
+      ],
+    },
+
+    {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Designing responsive and modern web interfaces using HTML, CSS, Tailwind CSS, and Bootstrap",
+        "● Designing responsive and modern web interfaces using HTML, CSS, Tailwind CSS, and Bootstrap",
 
-        "⚡ Developing server-side applications and RESTful APIs using Node.js and Express.js",
+        "● Developing server-side applications and RESTful APIs using Node.js and Express.js",
 
-        "⚡ Creating and managing databases using MongoDB (NoSQL) and MySQL (SQL)",
+        "● Creating and managing databases using MongoDB (NoSQL) and MySQL (SQL)",
 
-        "⚡ Implementing CRUD operations and integrating front-end with backend services",
+        "● Implementing CRUD operations and integrating front-end with backend services",
 
-        "⚡ Structuring scalable backend architectures and ensuring efficient data flow",
+        "● Structuring scalable backend architectures and ensuring efficient data flow",
 
-        "⚡ Experience with MVC architecture and modular coding practices",
+        "● Experience with MVC architecture and modular coding practices",
 
-        "⚡ Hands-on with form validation, session handling, and authentication techniques",
+        "● Hands-on with form validation, session handling, and authentication techniques",
 
-        "⚡ Deploying and testing web apps in local and cloud environments (Heroku, Vercel)",
+        "● Deploying and testing web apps in local and cloud environments (Heroku, Vercel)",
       ],
       softwareSkills: [
         {
@@ -262,9 +326,9 @@ const degrees = {
       subtitle: "Bachelor of Computer Applications",
       duration: "2019 - 2022",
       descriptions: [
-        "⚡ Core subjects included DBMS, Operating Systems, Computer Networks, Programming Fundamentals (C/C++), and Software Engineering.",
-        "⚡ Completed projects and practical assignments in web development, Python, and basic system design.",
-        "⚡ Scored well across semesters and developed a strong foundation for advanced studies in computer applications.",
+        "● Core subjects included DBMS, Operating Systems, Computer Networks, Programming Fundamentals (C/C++), and Software Engineering.",
+        "● Completed projects and practical assignments in web development, Python, and basic system design.",
+        "● Scored well across semesters and developed a strong foundation for advanced studies in computer applications.",
       ],
       website_link: "https://www.bcrec.ac.in/",
       logo_path: "bc roy.jpg",
@@ -276,9 +340,9 @@ const degrees = {
       duration: "2023 - 2025",
       website_link: "https://www.nshm.com/",
       descriptions: [
-        "⚡ Gaining in-depth knowledge in advanced subjects like Full Stack Web Development, Python, and Data Communication & Networking.",
-        "⚡ Actively working on practical projects to strengthen backend and frontend development skills.",
-        "⚡ Focusing on logic building, coding, and real-world application development.",
+        "● Gaining in-depth knowledge in advanced subjects like Full Stack Web Development, Python, and Data Communication & Networking.",
+        "● Actively working on practical projects to strengthen backend and frontend development skills.",
+        "● Focusing on logic building, coding, and real-world application development.",
       ],
       logo_path: "nshm.jpg",
       alt_name: "NSHM Knowledge Campus Durgapur",
@@ -295,7 +359,7 @@ const certifications = {
       certificate_link:
         "https://drive.google.com/file/d/1lDYl16HLppZFQ_Tio6tu77hxFN6X-shj/view?usp=drive_link",
       alt_name: "Internshala",
-      color_code: "#FFBB0099",
+      color_code: "rgba(37,99,235,0.06)",
     },
     {
       title: "Data Structures in C",
@@ -304,7 +368,7 @@ const certifications = {
       certificate_link:
         "https://drive.google.com/file/d/1YZmYNs2yAbQEMTMq_QA528u-KB9tYuUc/view?usp=drive_link",
       alt_name: "Great Learning",
-      color_code: "#FFBB0099",
+      color_code: "rgba(37,99,235,0.06)",
     },
 
     {
@@ -314,7 +378,7 @@ const certifications = {
       certificate_link:
         "https://drive.google.com/file/d/1YxvSsHacNgOKIxstb279kiXZ4nlHmI0_/view?usp=drive_link",
       alt_name: "Internshala",
-      color_code: "#FFBB0099",
+      color_code: "rgba(37,99,235,0.06)",
     },
 
     {
@@ -324,7 +388,7 @@ const certifications = {
       certificate_link:
         "https://drive.google.com/file/d/1iDcdkeyupFhbhQZbVyZFGZCok-QAovTx/view?usp=drive_link",
       alt_name: "Internshala",
-      color_code: "#FFBB0099",
+      color_code: "rgba(37,99,235,0.06)",
     },
 
     {
@@ -334,7 +398,7 @@ const certifications = {
       certificate_link:
         "https://drive.google.com/file/d/12HLd1y2v2VtZm93SZC1Hmnd8k6K56kjJ/view?usp=drive_link",
       alt_name: "Internshala",
-      color_code: "#FFBB0099",
+      color_code: "rgba(37,99,235,0.06)",
     },
 
     {
@@ -344,7 +408,7 @@ const certifications = {
       certificate_link:
         "https://drive.google.com/file/d/13t_oYcXAL1HEuQbg4L-n81zrAVzQZR6U/view?usp=drive_link",
       alt_name: "NPTEL",
-      color_code: "#FFBB0099",
+      color_code: "rgba(37,99,235,0.06)",
     },
 
     {
@@ -354,7 +418,7 @@ const certifications = {
       certificate_link:
         "https://drive.google.com/file/d/16EaEKLVsEOHlWUfTzA2Kf5qD-ec3IEW-/view?usp=drive_link",
       alt_name: "Great Learning",
-      color_code: "#FFBB0099",
+      color_code: "rgba(37,99,235,0.06)",
     },
   ],
 };
@@ -408,7 +472,7 @@ const experience = {
           title: "Google Arcade Facilitator",
           company: "Google",
           company_url: "https://about.google/",
-          logo_path: "google.jpg",
+          logo_path: "google.png.jpg",
           duration: "April 2025 - Present",
           location: "Remote / India",
           description:

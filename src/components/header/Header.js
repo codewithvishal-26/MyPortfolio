@@ -2,22 +2,11 @@ import React, { Component } from "react";
 import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
-import { greeting, settings } from "../../portfolio.js";
+import { settings } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
-
-const onMouseEnter = (event, color) => {
-  const el = event.target;
-  el.style.backgroundColor = color;
-};
-
-const onMouseOut = (event) => {
-  const el = event.target;
-  el.style.backgroundColor = "transparent";
-};
 
 class Header extends Component {
   render() {
-    const theme = this.props.theme;
     const link = settings.isSplash ? "/splash" : "home";
     return (
       <Fade top duration={1000} distance="20px">
@@ -25,26 +14,19 @@ class Header extends Component {
         <div>
           <header className="header">
             <NavLink to={link} tag={Link} className="logo">
-              <span style={{ color: theme.text }}> &lt;</span>
-              <span className="logo-name" style={{ color: theme.text }}>
-                {greeting.logo_name}
+              <span className="logo-icon">&lt;/&gt;</span>
+              <span className="logo-name">
+                <span className="logo-first">Vishal </span>
+                <span className="logo-second">Chandrabanshi</span>
               </span>
-              <span style={{ color: theme.text }}>/&gt;</span>
             </NavLink>
             <input className="menu-btn" type="checkbox" id="menu-btn" />
             <label className="menu-icon" htmlFor="menu-btn">
               <span className="navicon"></span>
             </label>
-            <ul className="menu" style={{ backgroundColor: theme.body }}>
+            <ul className="menu">
               <li>
-                <NavLink
-                  to="/home"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
-                >
+                <NavLink to="/home" tag={Link} activeClassName="active-link">
                   Home
                 </NavLink>
               </li>
@@ -52,10 +34,7 @@ class Header extends Component {
                 <NavLink
                   to="/education"
                   tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
+                  activeClassName="active-link"
                 >
                   Education
                 </NavLink>
@@ -64,10 +43,7 @@ class Header extends Component {
                 <NavLink
                   to="/experience"
                   tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
+                  activeClassName="active-link"
                 >
                   Experience
                 </NavLink>
@@ -76,10 +52,7 @@ class Header extends Component {
                 <NavLink
                   to="/projects"
                   tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
+                  activeClassName="active-link"
                 >
                   Projects
                 </NavLink>
@@ -88,31 +61,52 @@ class Header extends Component {
                 <NavLink
                   to="/opensource"
                   tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
+                  activeClassName="active-link"
                 >
                   Open Source
                 </NavLink>
               </li>
               <li>
-                <NavLink
-                  to="/contact"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
-                >
+                <NavLink to="/contact" tag={Link} activeClassName="active-link">
                   Contact Me
                 </NavLink>
               </li>
             </ul>
+            <div className="header-right">
+              <a
+                href="https://github.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="header-social-btn"
+                aria-label="GitHub"
+              >
+                <i className="fab fa-github"></i>
+              </a>
+              <a
+                href="https://linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="header-social-btn"
+                aria-label="LinkedIn"
+              >
+                <i className="fab fa-linkedin-in"></i>
+              </a>
+              <a
+                href="mailto:your@email.com"
+                className="header-social-btn"
+                aria-label="Email"
+              >
+                <i className="fas fa-envelope"></i>
+              </a>
+              <NavLink to="/contact" tag={Link} className="header-cta-btn">
+                ✈️ Let's Connect
+              </NavLink>
+            </div>
           </header>
         </div>
       </Fade>
     );
   }
 }
+
 export default Header;

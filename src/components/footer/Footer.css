@@ -1,10 +1,14 @@
 .footer-text {
   text-align: center;
-  /* color: #868e96; */
-  font-weight: bold;
-  font-family: "Google Sans Regular";
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  color: #4a5568;
+  font-size: 14px;
 }
-
 .footer-div {
   margin-top: 2rem;
+  padding: 20px;
+  border-top: 1px solid rgba(37, 99, 235, 0.1);
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
 }

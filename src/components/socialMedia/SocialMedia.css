@@ -1,70 +1,43 @@
 .social-media-div {
   font-size: 2em;
-}
-
-.icon-button i {
-  color: white;
+  margin-top: 36px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
 }
 .icon-button {
   margin-bottom: 10px;
+  transition: transform 0.2s ease;
+  display: inline-flex;
+  text-decoration: none;
+  border-bottom: none !important;
+  outline: none;
 }
-
+.icon-button:hover {
+  transform: translateY(-4px);
+}
+.icon-button:focus,
+.icon-button:active {
+  text-decoration: none;
+  border-bottom: none !important;
+}
 .icon-button i {
-  border-radius: 2.6rem;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1.3rem;
-  height: 2.6rem;
-  line-height: 2.6rem;
-  margin: 0 5px;
-  position: relative;
-  text-align: center;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  width: 2.6rem;
-  margin-bottom: 10px;
+  color: white;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
-
-/* .facebook i {
-  background-color: #3b5998;
+.icon-button:hover i {
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.25);
 }
-
-.linkedin i {
-  background-color: #0e76a8;
-}
-
-.github i {
-  background-color: #333;
-}
-
-.gitlab i {
-  background-color: #fca326;
-}
-
-.google i {
-  background-color: #ea4335;
-}
-
-.twitter i {
-  background-color: #1da1f2;
-}
-
-.instagram i {
-  background-color: #E4405F;
-} */
-
-/*Hover Transition*/
-/* .twitter i:hover, .google i:hover, .gitlab i:hover,
-.github i:hover ,.linkedin i:hover ,.facebook i:hover, .instagram i:hover{
-  background-color: black;
-  transition: 0.3s ease-in;
-} */
-
-/* Media Query */
 @media (max-width: 768px) {
   .social-media-div {
-    text-align: center;
+    justify-content: center;
   }
 }

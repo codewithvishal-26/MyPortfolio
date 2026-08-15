@@ -1,27 +1,24 @@
 .certs-header {
   font-size: 40px;
-  line-height: 1.1;
-  font-family: "Google Sans Regular";
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
   text-align: center;
+  color: #1a2b4a;
+  letter-spacing: -0.02em;
+  margin-bottom: 30px;
 }
-
 .certs-body-div {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px 0;
 }
-
-@media (max-width: 1380px) {
-  .certs-header {
-    font-size: 35px;
-  }
-}
-
 @media (max-width: 768px) {
   .certs-body-div {
     flex-direction: column;
+    align-items: center;
   }
-
   .certs-header {
     font-size: 30px;
   }
