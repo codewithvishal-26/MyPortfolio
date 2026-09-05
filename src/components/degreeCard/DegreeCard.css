@@ -1,61 +1,117 @@
 .degree-card {
   display: flex;
   width: 100%;
-  border: 1px solid rgba(37, 99, 235, 0.12);
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(20px);
+  border: 1px solid #bfdbfe;
+  border-radius: 16px;
+  background: #ffffff;
   box-shadow: 0 4px 20px rgba(37, 99, 235, 0.08);
   overflow: hidden;
   margin-bottom: 20px;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
+
 .degree-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 32px rgba(37, 99, 235, 0.15);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(37, 99, 235, 0.15);
 }
+
 .card-img {
   width: 140px;
   height: 140px;
   border-radius: 50%;
-  border: 2px solid rgba(37, 99, 235, 0.2);
+  border: 2px solid #bfdbfe;
+  box-shadow: 0 4px 16px rgba(37, 99, 235, 0.12);
   background: #ffffff;
-  object-fit: contain;
-  padding: 8px;
+  object-fit: cover;
+  overflow: hidden;
   margin: auto 20px;
   flex-shrink: 0;
 }
+
 .card-title {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
   font-family: "Inter", sans-serif;
   color: #1a2b4a;
 }
+
 .card-subtitle {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 600;
   font-family: "Inter", sans-serif;
   color: #2563eb;
   margin-top: 4px;
 }
+
 .card-body {
   padding: 20px 20px 20px 0;
   flex: 1;
 }
+
+.card-description-button-div {
+  margin-top: 12px;
+}
+
 .card-description {
   font-size: 14px;
   font-family: "Inter", sans-serif;
-  color: #4a5568;
+  color: #475569;
   line-height: 1.7;
 }
+
+.card-description ul {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0;
+}
+
+.card-description ul li::before {
+  content: "● ";
+  color: #2563eb;
+  font-size: 10px;
+}
+
+.visit-btn {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 8px 18px;
+  background: #eff6ff;
+  color: #2563eb;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 1px solid #bfdbfe;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.visit-btn:hover {
+  background: #2563eb;
+  color: #fff;
+}
+
 @media (max-width: 768px) {
   .degree-card {
     flex-direction: column;
     align-items: center;
     padding: 20px;
   }
+  .card-img {
+    margin: 0 0 16px 0;
+  }
   .card-body {
     padding: 0;
     text-align: center;
   }
+  .card-title {
+    font-size: 20px;
+  }
+}
+.body-header {
+  background: transparent !important;
+  border-bottom: 1px solid rgba(37, 99, 235, 0.08);
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }

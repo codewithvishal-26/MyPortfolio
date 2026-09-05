@@ -13,6 +13,8 @@
   align-items: center;
   gap: 40px;
   min-height: 85vh;
+  border: none !important;
+  outline: none !important;
 }
 
 .greeting-text-div {
@@ -22,15 +24,14 @@
 }
 
 .greeting-image-div {
-  flex: 0 0 480px;
+  flex: 0 0 580px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.greeting-image-div > * {
-  max-width: 100%;
-  height: auto;
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  padding: 0 !important;
 }
 
 .greeting-badge {

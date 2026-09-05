@@ -63,14 +63,32 @@ export default function FeelingProud(props) {
   }, []);
 
   return (
-    <div className="hero-visual-stack">
-      <div className="hero-illustration-box">
-        <img
-          src={heroIllustration}
-          alt="Developer working with automation tools"
-        />
-      </div>
-      <div className="code-card">
+    <div
+      style={{
+        width: "100%",
+        border: "none",
+        background: "transparent",
+        boxShadow: "none",
+        padding: 0,
+        margin: 0,
+      }}
+    >
+      <img
+        src={heroIllustration}
+        alt="Developer working with automation tools"
+        style={{
+          width: "100%",
+          height: "auto",
+          display: "block",
+          border: "none",
+          boxShadow: "none",
+          background: "transparent",
+          mixBlendMode: "multiply",
+          objectFit: "contain",
+          outline: "none",
+        }}
+      />
+      <div className="code-card" style={{ marginTop: "16px" }}>
         <div className="code-card-dots">
           <span className="dot dot-red"></span>
           <span className="dot dot-amber"></span>

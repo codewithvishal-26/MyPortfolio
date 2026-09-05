@@ -16,8 +16,8 @@ class Header extends Component {
             <NavLink to={link} tag={Link} className="logo">
               <span className="logo-icon">&lt;/&gt;</span>
               <span className="logo-name">
-                <span className="logo-first">Vishal </span>
-                <span className="logo-second">Chandrabanshi</span>
+                <span className="logo-first">Test</span>
+                <span className="logo-second"> • Build • Deploy</span>
               </span>
             </NavLink>
             <input className="menu-btn" type="checkbox" id="menu-btn" />
@@ -99,7 +99,7 @@ class Header extends Component {
                 <i className="fas fa-envelope"></i>
               </a>
               <NavLink to="/contact" tag={Link} className="header-cta-btn">
-                ✈️ Let's Connect
+                Let's Connect
               </NavLink>
             </div>
           </header>

@@ -8,7 +8,7 @@ export const darkAuroraTheme = {
   imageHighlight: "#2563EB",
   compImgHighlight: "#e8f0fe",
   jacketColor: "#e8eeff",
-  headerColor: "#0B1326",
+  headerColor: "rgba(37,99,235,0.06)",
   splashBg: "#0B1326",
 };
 

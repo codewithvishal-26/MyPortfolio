@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "Vishal Chandrabanshi",
   nickname: "AI Automation & Test Engineer",
   subTitle:
-    "MCA student & Ex-Wipro professional specializing in AI-driven test automation. Building intelligent frameworks with Selenium, Playwright, and API testing to ship reliable software faster.",
+    "MCA student & Ex-Wipro professional specializing in AI-driven test automation. Building intelligent, self-healing frameworks with Selenium, Playwright, and API testing — powered by AI to ship reliable software faster.",
   resumeLink:
     "https://drive.google.com/file/d/12uYl4PN6tEVzxyMevx-aJB2Bvjp6vUDo/view?usp=sharing",
   portfolio_repository: "https://github.com/codewithvishal-26?tab=repositories",
@@ -76,22 +76,22 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Analysitics",
-      fileName: "DataAnalyticsImg",
+      title: "API & Performance Testing",
+      fileName: "APIPerformanceTestingImg",
       skills: [
-        "● Extracted, cleaned, and transformed large datasets from multiple sources using SQL for reliable, analysis-ready data",
+        "● Designed and executed API test cases using Postman to validate request/response accuracy and error handling",
 
-        "● Conducted data-driven analysis to uncover trends, optimize performance, and support strategic business decisions",
+        "● Automated API testing workflows to verify functionality, data integrity, and service reliability",
 
-        "● Built predictive models and ran statistical analysis on marketing, sales, and customer behavior patterns",
+        "● Performed load, stress, and scalability testing to validate application performance under real-world traffic",
 
-        "● Automated reporting and analytics workflows using Excel (VLOOKUP, Pivot Tables, Macros) and Python",
+        "● Identified performance bottlenecks in backend services and collaborated with developers to optimize response times",
 
-        "● Translated complex datasets into clear visual stories that drive stakeholder decisions",
+        "● Validated REST API endpoints for status codes, response schemas, and authentication flows",
 
-        "● Applied A/B testing, hypothesis testing, and time-series forecasting to validate business hypotheses",
+        "● Analyzed server-side metrics (CPU, memory, throughput) to pinpoint root causes of performance degradation",
 
-        "● Worked with data pipelines, ETL processes, and cloud platforms like AWS and GCP on real project environments",
+        "● Documented API test results and performance benchmarks to guide release readiness decisions",
       ],
       softwareSkills: [
         {
@@ -138,7 +138,7 @@ const skills = {
     },
 
     {
-      title: "Technical Support",
+      title: "Infrastructure & Automation Support",
       fileName: "SupportImg",
       skills: [
         "● 1.5+ years at Wipro managing enterprise backup operations and infrastructure reliability",
@@ -173,22 +173,16 @@ const skills = {
       ],
     },
     {
-      title: "AI Automation & Testing",
-      fileName: "FullStackImg",
+      title: "AI Test Automation",
+      fileName: "AutomationTestingImg",
       skills: [
-        "● Designing and maintaining AI-augmented automation frameworks using Selenium WebDriver, TestNG, and Java for scalable web testing",
-
-        "● Building fast, reliable cross-browser end-to-end test suites with Playwright for modern web applications",
-
-        "● Performing thorough API testing and validation using Postman — request chaining, schema validation, and response assertions",
-
-        "● Applying AI-assisted test case generation and self-healing locators to reduce script maintenance and flakiness",
-
-        "● Architecting data-driven and keyword-driven frameworks to make QA pipelines reusable and scalable",
-
-        "● Integrating automated test suites into CI/CD pipelines for continuous, AI-supported quality assurance",
-
-        "● Exploring intelligent test prioritization and predictive defect analysis to catch bugs before they ship",
+        "● Designed and built scalable test automation frameworks using Selenium and Playwright for web application testing",
+        "● Automated API testing workflows to validate functionality, performance, and reliability across services",
+        "● Integrated AI-powered self-healing locators and smart test generation to reduce test maintenance and flaky failures",
+        "● Developed and maintained CI/CD test pipelines to enable continuous testing and faster, reliable software delivery",
+        "● Performed cross-browser and regression testing to ensure consistent application behavior across environments",
+        "● Applied AI/LLM-assisted techniques for test case generation, bug prediction, and intelligent test prioritization",
+        "● Collaborated with development teams to embed automated testing early in the SDLC, improving overall software quality",
       ],
       softwareSkills: [
         {
@@ -428,7 +422,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked in the IT industry as a Technical Support Engineer with experience in data backup and storage domains. Over 1.5 years, I gained hands-on expertise with enterprise tools, ticketing systems, and client support. Now transitioning into development, I’m focused on gaining strong skills in full-stack development.",
+    "I have worked in the IT industry with 3+ years of experience, starting as an Associate Engineer – Infrastructure & Functional Testing in data backup and storage domains, and now specializing in AI-driven test automation. Along the way, I've gained hands-on expertise with enterprise tools, ticketing systems, client support, and building automated test frameworks using Selenium, Playwright, and API testing to deliver reliable, high-quality software.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -436,15 +430,38 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Technical Support Engineer – Storage and Backup",
+          title: "Associate Engineer – Infrastructure & Functional Testing",
           company: "Wipro Ltd.",
           company_url: "https://www.wipro.com/",
           logo_path: "wipro.png",
           duration: "May 2022 – Oct 2023",
           location: "Coimbatore, India",
           description:
-            "Provided technical support in the domain of data backup and storage for enterprise clients. Hands-on experience with tools like Cohesity, TSM, and Data Domain. Responsible for handling tickets, resolving backup issues, monitoring storage systems, and ensuring data integrity for critical systems.",
+            "Provided technical support in the domain of data backup and storage for enterprise clients. Hands-on experience with tools like Cohesity, TSM, and Data Domain. Responsible for handling tickets, resolving backup issues, monitoring storage systems, and performing functional and performance checks to ensure data integrity and system reliability for critical infrastructure.",
           color: "#00A4EF",
+        },
+
+        {
+          title: "Quality Analyst",
+          company: "Techno Exponent",
+          company_url: "https://www.technoexponent.com/",
+          logo_path: "technoexponent.png",
+          duration: "2024 – 2025",
+          location: "Kolkata, India",
+          description:
+            "Working as a Quality Analyst at Techno Exponent, an AI-driven digital solutions company. Responsible for manual and automated testing of web applications, building test automation frameworks using Selenium and Playwright, and performing API and performance testing to ensure reliable, high-quality releases.",
+          color: "#E94B3C",
+        },
+        {
+          title: "Quality Assurance Analyst",
+          company: "Infosys",
+          company_url: "https://www.infosys.com/",
+          logo_path: "infosys.png",
+          duration: "2025 – Present",
+          location: "India",
+          description:
+            "Working as a Quality Assurance Analyst at Infosys, one of India's leading IT services companies. Responsible for ensuring software quality through manual and automated testing using Selenium and Playwright, API and performance testing, defect tracking, and collaborating with cross-functional teams in an Agile environment.",
+          color: "#007CC2",
         },
       ],
     },
@@ -488,7 +505,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a wide range of modern technologies, combining frontend and backend development with strong analytical tools. My best experience lies in creating data analysis projects and visualizing business insights using Python, Excel, and Power BI. I have also worked on deploying dynamic web applications and clones using technologies like HTML, CSS, JavaScript, Node.js, and MongoDB, React",
+    "My projects make use of a wide range of modern technologies, combining test automation frameworks with strong analytical and development tools. My best experience lies in building automated test suites and API validation frameworks using Selenium, Playwright, and Postman, integrated with AI-driven self-healing and smart test generation. I have also worked on developing and testing dynamic web applications using technologies like HTML, CSS, JavaScript, Node.js, MongoDB, and React, applying automation practices across the full development lifecycle.",
   avatar_image_path: "projects_image.svg",
 };
 
