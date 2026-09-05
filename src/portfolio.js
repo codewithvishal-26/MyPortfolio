@@ -545,7 +545,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "vishal_pic.jpg",
+    profile_image_path: "vishal_pic.png",
     description:
       "I’m always open to exciting opportunities and meaningful collaborations. Whether you have a project idea, want to discuss technology, or simply want to connect — feel free to reach out! I'm active on most social platforms and usually respond within 24 hours. I can help you with Web Development (MERN Stack), Data Analysis, Resume Building, and Portfolio Projects.",
   },
