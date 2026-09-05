@@ -5,7 +5,7 @@ export const darkAuroraTheme = {
   highlight: "#e8eeff",
   dark: "#0B1326",
   secondaryText: "#4a5568",
-  imageHighlight: "#2563EB",
+  imageHighlight: "#1A2B4A",
   compImgHighlight: "#e8f0fe",
   jacketColor: "#e8eeff",
   headerColor: "rgba(37,99,235,0.06)",
