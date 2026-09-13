@@ -54,20 +54,21 @@ const socialMediaLinks = [
   },
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:vishalchandrabanshi125@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "X-Twitter",
-    link: "https://twitter.com/ashutosh_1919",
+    link: "https://twitter.com/",
     fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
   },
 
   {
     name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
+    link:
+      "https://www.instagram.com/vishal_chandrabanshi_?stkn=NjU0M2Fnbm80OGdh",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },

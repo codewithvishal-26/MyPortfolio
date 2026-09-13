@@ -53,5 +53,11 @@
   }
   .skills-text-div {
     margin-left: 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: left;
+  }
+  .skills-text {
+    text-align: left;
   }
 }
